@@ -1,0 +1,8 @@
+<div class="form-control ace_editor ace-solarized-light">
+</div>
+
+<%= form_with model: @article do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit %>
+<% end %>
